@@ -1,0 +1,132 @@
+nav ul{
+	padding: 0px;
+    margin: 0px;
+    text-align: center;
+	list-style-type: none;
+	background-color: #333333;
+}
+nav li {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+	border-right: 5px solid #CCCCCC;
+	border-left: 5px solid #CCCCCC;
+	text-align: center;
+	line-height: 60px;
+}
+nav li :hover{ 
+	background-color: #FFFFFF;
+	color: black;
+} 
+nav li a {
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+}/*pour que la couleur change quand la souris est dessus*/
+
+form{
+	text-align: center;
+}
+p{text-align: center;}
+
+body {
+			background-color: #CFE4EE
+	 }
+
+form table input[type=button], input[type=submit], input[type=reset] {
+
+  background-color: #FFFFFF; /* white */
+
+  border: 2px solid #555555;
+
+  color: white;
+
+  padding: 16px 32px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  transition-duration: 0.4s;
+
+  cursor: pointer;
+
+  background-color: white;
+
+  color: black;
+
+  border: 2px solid #555555;
+
+}
+
+form table input[type=button], input[type=submit], input[type=reset]:hover {
+
+  background-color: #555555;
+
+  color: white;
+}
+form table input[type=text],input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+form table input[type=text]:focus {
+  border: 3px solid #555;
+}
+form table input[type="password"]:focus {
+  border: 3px solid #555;
+}
+
+button{
+    
+  background-color: #FFFFFF; /* white */
+
+  border: 2px solid #555555;
+
+  color: white;
+
+  padding: 16px 32px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  transition-duration: 0.4s;
+
+  cursor: pointer;
+
+  background-color: white;
+
+  color: black;
+
+  border: 2px solid #555555;
+}
+
+button:hover{
+   background-color: #555555;
+
+  color: white;
+}
+form table{
+  text-align: center;
+}
